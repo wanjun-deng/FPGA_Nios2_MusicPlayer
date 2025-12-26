@@ -1,0 +1,137 @@
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+#include "altera_avalon_timer_regs.h"
+#include "alt_types.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "ir_handler.h"
+#include "score_data.h"
+
+int main() {
+    alt_u8 playing = 0;
+    alt_u8 songchoose = 0; 
+    alt_u8 addr_cnt = 0;
+    alt_u8 restart = 0;
+    alt_u32 beat_timer = 0;
+    alt_u8 play_mode = 1; // 1:单次, 2:单曲, 3:顺序, 4:随机
+    
+    alt_u8 keyboard;
+    alt_u8 last_keyboard = 0; 
+    alt_u8 inote = 0;
+
+    alt_u8 volume = 1; 
+    alt_u32 beat_threshold = 336; 
+
+    printf("Nios II Scorereader Logic Started (Software Score Mode)\n");
+
+    IOWR_ALTERA_AVALON_PIO_DATA(PIO_VOLUMECTRL_BASE, volume);
+
+    IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER_0_BASE, 50000 & 0xFFFF);
+    IOWR_ALTERA_AVALON_TIMER_PERIODH(TIMER_0_BASE, (50000 >> 16) & 0xFFFF);
+    IOWR_ALTERA_AVALON_TIMER_CONTROL(TIMER_0_BASE,
+        ALTERA_AVALON_TIMER_CONTROL_CONT_MSK |
+        ALTERA_AVALON_TIMER_CONTROL_START_MSK);
+
+    while (1) {
+        alt_u8 ir_vkey = handle_ir_input(&volume, &beat_threshold);
+        keyboard = IORD_ALTERA_AVALON_PIO_DATA(PIO_KEYBOARD_BASE);
+        
+        // 综合处理物理键盘和红外虚拟键
+        alt_u8 active_key = 0;
+        if (ir_vkey != 0) {
+            active_key = ir_vkey;
+        } else if (keyboard != last_keyboard && (keyboard & 0x10)) {
+            active_key = keyboard;
+        }
+
+        inote = score_data[(songchoose << 5) | (addr_cnt & 0x1F)];
+        update_display(songchoose, play_mode, volume, beat_threshold, inote, keyboard, ir_vkey);
+
+        if (((inote & 0x80) == 0) || (addr_cnt == 0x1F)) {
+            // 歌曲结束处理
+            addr_cnt = 0;
+            beat_timer = 0;
+            restart = 0;
+            if (play_mode == 1) { // 单次播放
+                playing = 0;
+            } else if (play_mode == 2) { // 单曲循环
+                playing = 1;
+            } else if (play_mode == 3) { // 顺序播放
+                songchoose = (songchoose + 1) % 4;
+                playing = 1;
+            } else if (play_mode == 4) { // 随机播放
+                songchoose = rand() % 4;
+                playing = 1;
+            }
+        } else {
+            if (active_key != 0) {
+                switch (active_key & 0x1F) {
+                    case 0x10: playing = 1; restart = 0; play_mode = 1; break; // 按键0: 单次播放
+                    case 0x11: playing = 1; restart = 0; play_mode = 2; break; // 按键1: 单曲循环
+                    case 0x12: playing = 1; restart = 0; play_mode = 3; break; // 按键2: 顺序播放
+                    case 0x13: playing = 1; restart = 0; play_mode = 4; break; // 按键3: 随机播放
+                    
+                    case 0x14: playing = 0; break;              // 按键4: 暂停
+                    case 0x15: playing = 0; restart = 1; break; // 按键5: 停止
+
+                    case 0x16: playing = 0; restart = 1; songchoose = 0; break; // 按键6: 歌曲0
+                    case 0x17: playing = 0; restart = 1; songchoose = 1; break; // 按键7: 歌曲1
+                    case 0x18: playing = 0; restart = 1; songchoose = 2; break; // 按键8: 歌曲2
+                    case 0x19: playing = 0; restart = 1; songchoose = 3; break; // 按键9: 歌曲3
+
+                    case 0x1A: // 按键10: 音量加
+                        if (volume < 3) volume++;
+                        IOWR_ALTERA_AVALON_PIO_DATA(PIO_VOLUMECTRL_BASE, volume);
+                        break;
+                    case 0x1B: // 按键11: 音量减
+                        if (volume > 0) volume--;
+                        IOWR_ALTERA_AVALON_PIO_DATA(PIO_VOLUMECTRL_BASE, volume);
+                        break;
+                    case 0x1C: // 按键12: 速度加 (阈值减小)
+                        if (beat_threshold >= 500) beat_threshold = 336;
+                        else if (beat_threshold >= 336) beat_threshold = 200;
+                        else if (beat_threshold >= 200) beat_threshold = 100;
+                        break;
+                    case 0x1D: // 按键13: 速度减 (阈值增大)
+                        if (beat_threshold <= 100) beat_threshold = 200;
+                        else if (beat_threshold <= 200) beat_threshold = 336;
+                        else if (beat_threshold <= 336) beat_threshold = 500;
+                        break;
+                }
+            }
+        }
+        last_keyboard = keyboard;
+
+        if (playing) {
+            IOWR_ALTERA_AVALON_PIO_DATA(PIO_ONOTE_BASE, inote);
+        } else {
+            IOWR_ALTERA_AVALON_PIO_DATA(PIO_ONOTE_BASE, 0);
+        }
+        IOWR_ALTERA_AVALON_PIO_DATA(PIO_PLAYING_BASE, playing);
+        
+        // 更新 LED 显示：显示最后一次有效的按键值（低4位）
+        static alt_u8 last_active_val = 0;
+        if (active_key != 0) {
+            last_active_val = active_key & 0x0F;
+        }
+        IOWR_ALTERA_AVALON_PIO_DATA(PIO_LED_BASE, ~last_active_val);
+
+        if (restart) {
+            addr_cnt = 0;
+            beat_timer = 0;
+            restart = 0; // 必须清零，否则 addr_cnt 会一直被重置为 0
+        }
+
+        if (IORD_ALTERA_AVALON_TIMER_STATUS(TIMER_0_BASE) & ALTERA_AVALON_TIMER_STATUS_TO_MSK) {
+            IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER_0_BASE, 0); 
+            if (playing) {
+                beat_timer++;
+                if (beat_timer >= beat_threshold) {
+                    beat_timer = 0;
+                    addr_cnt++;
+                }
+            }
+        }
+    }
+    return 0;
+}

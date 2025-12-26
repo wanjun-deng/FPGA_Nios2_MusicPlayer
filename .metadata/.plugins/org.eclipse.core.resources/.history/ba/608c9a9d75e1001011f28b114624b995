@@ -1,0 +1,144 @@
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+#include "altera_avalon_timer_regs.h"
+#include "alt_types.h"
+#include <stdio.h>
+
+/* 
+ * Scorereader logic migrated from Verilog to C
+ * 
+ * Keyboard mapping (from scorereader.v):
+ * 5'b10000 (0x10): Play
+ * 5'b10001 (0x11): Pause
+ * 5'b10010 (0x12): Stop
+ * 5'b10100 (0x14): Song 0
+ * 5'b10101 (0x15): Song 1
+ * 5'b10110 (0x16): Song 2
+ * 5'b10111 (0x17): Song 3
+ */
+
+int main() {
+    alt_u8 playing = 0;
+    alt_u8 songchoose = 1; // Default from scorereader.v
+    alt_u8 addr_cnt = 0;
+    alt_u8 restart = 0;
+    alt_u32 beat_timer = 0;
+
+    // 流水灯相关变量
+    alt_u8 led_pattern = 0x01;
+    alt_u32 led_timer = 0;
+    const alt_u32 LED_THRESHOLD = 200; // 200ms 移动一次
+
+    // Verilog beater was 24-bit counter at 50MHz.
+    // Overflow period = 2^24 / 50,000,000 = 0.33554432 seconds.
+    // Timer 0 is set to 1ms (50,000 cycles).
+    // So we need approx 336 timer ticks for one beat.
+    const alt_u32 BEAT_THRESHOLD = 336;
+
+    printf("Nios II Scorereader Logic Started with LED Running Light\n");
+
+    // Initialize Timer 0 for 1ms period
+    // 50MHz / 1000 = 50,000 cycles
+    IOWR_ALTERA_AVALON_TIMER_PERIODL(TIMER_0_BASE, 50000 & 0xFFFF);
+    IOWR_ALTERA_AVALON_TIMER_PERIODH(TIMER_0_BASE, (50000 >> 16) & 0xFFFF);
+    IOWR_ALTERA_AVALON_TIMER_CONTROL(TIMER_0_BASE,
+        ALTERA_AVALON_TIMER_CONTROL_CONT_MSK |
+        ALTERA_AVALON_TIMER_CONTROL_START_MSK);
+
+    while (1) {
+        // 1. Read Keyboard Input
+        alt_u8 keyboard = IORD_ALTERA_AVALON_PIO_DATA(PIO_KEYBOARD_BASE);
+
+        // 2. Handle Control Logic (scorereader.v always block)
+
+        // Check for auto-stop conditions first (highest priority in Verilog if-else)
+        // We need to read the current note from ROM to check bit 7
+        alt_u8 current_addr = (songchoose << 5) | (addr_cnt & 0x1F);
+        IOWR_ALTERA_AVALON_PIO_DATA(PIO_ADDR_BASE, current_addr);
+
+        // Small delay to let ROM output stabilize (PIO is slow)
+        for(volatile int d=0; d<10; d++);
+        alt_u8 inote = IORD_ALTERA_AVALON_PIO_DATA(PIO_INOTE_BASE);
+
+        if (((inote & 0x80) == 0) || (addr_cnt == 0x1F)) {
+            playing = 0;
+            restart = 1;
+        } else {
+            // Handle key presses
+            if (keyboard & 0x10) { // Key_Flag (bit 4) is active
+                switch (keyboard & 0x1F) {
+                    case 0x10: // Play
+                        playing = 1;
+                        restart = 0;
+                        break;
+                    case 0x11: // Pause
+                        playing = 0;
+                        break;
+                    case 0x12: // Stop
+                        playing = 0;
+                        restart = 1;
+                        break;
+                    case 0x14: // Song 0
+                        playing = 0;
+                        restart = 1;
+                        songchoose = 0;
+                        break;
+                    case 0x15: // Song 1
+                        playing = 0;
+                        restart = 1;
+                        songchoose = 1;
+                        break;
+                    case 0x16: // Song 2
+                        playing = 0;
+                        restart = 1;
+                        songchoose = 2;
+                        break;
+                    case 0x17: // Song 3
+                        playing = 0;
+                        restart = 1;
+                        songchoose = 3;
+                        break;
+                }
+            }
+        }
+
+        // 3. Output Logic
+        if (playing) {
+            IOWR_ALTERA_AVALON_PIO_DATA(PIO_ONOTE_BASE, inote);
+        } else {
+            IOWR_ALTERA_AVALON_PIO_DATA(PIO_ONOTE_BASE, 0);
+        }
+        IOWR_ALTERA_AVALON_PIO_DATA(PIO_PLAYING_BASE, playing);
+
+        // 4. Timing Logic (beater + beatct)
+        if (restart) {
+            addr_cnt = 0;
+            beat_timer = 0;
+        }
+
+        // Poll Timer for 1ms ticks
+        if (IORD_ALTERA_AVALON_TIMER_STATUS(TIMER_0_BASE) & ALTERA_AVALON_TIMER_STATUS_TO_MSK) {
+            IOWR_ALTERA_AVALON_TIMER_STATUS(TIMER_0_BASE, 0); // Clear timeout flag
+
+            // 乐谱节拍控制
+            if (playing) {
+                beat_timer++;
+                if (beat_timer >= BEAT_THRESHOLD) {
+                    beat_timer = 0;
+                    addr_cnt++;
+                }
+            }
+
+            // 流水灯控制 (每 200ms 移动一次)
+            led_timer++;
+            if (led_timer >= LED_THRESHOLD) {
+                led_timer = 0;
+                if (led_pattern >= 0x08) led_pattern = 0x01;
+                else led_pattern <<= 1;
+                IOWR_ALTERA_AVALON_PIO_DATA(PIO_LED_BASE, led_pattern);
+            }
+        }
+    }
+
+    return 0;
+}

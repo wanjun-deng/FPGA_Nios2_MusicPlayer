@@ -1,0 +1,904 @@
+Archive member included because of file (symbol)
+
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                              obj/default/main.o (puts)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+                              obj/default/player.o (rand)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (strlen)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (__sfvwrite_small_dev)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (_impure_ptr)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o) (malloc)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o) (_malloc_r)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o) (_sbrk_r)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o) (_free_r)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o) (errno)
+e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o) (__muldi3)
+../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+                              obj/default/main.o (alt_ic_isr_register)
+../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+                              ../scorereader_01_bsp/obj/HAL/src/crt0.o (alt_load)
+../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+                              ../scorereader_01_bsp/obj/HAL/src/crt0.o (alt_main)
+../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o) (__malloc_lock)
+../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o) (sbrk)
+../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+                              e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (write)
+../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_write.o) (altera_avalon_jtag_uart_write)
+../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_write.o) (alt_errno)
+../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+                              ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00000000         0x00000020
+rom              0x00000020         0x000007e0
+ram_BEFORE_EXCEPTION 0x00008000         0x00000020
+ram              0x00008020         0x000032a8
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../scorereader_01_bsp/obj/HAL/src/crt0.o
+LOAD obj/default/input_manager.o
+LOAD obj/default/ir_handler.o
+LOAD obj/default/main.o
+LOAD obj/default/player.o
+LOAD e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libstdc++.a
+LOAD e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libm.a
+LOAD e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+START GROUP
+LOAD e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a
+LOAD e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+LOAD ../scorereader_01_bsp\libhal_bsp.a
+END GROUP
+LOAD e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a
+                0x00000000                __alt_mem_rom = 0x0
+                0x00008000                __alt_mem_ram = 0x8000
+
+.entry          0x00000000       0x20
+ *(.entry)
+ .entry         0x00000000       0x20 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+                0x00000000                __reset
+                0x0000001c                _exit
+
+.exceptions     0x00008020      0x130
+                0x00008020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00008020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00008020        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+                0x00008020                alt_irq_entry
+ .exceptions.entry.label
+                0x00008020        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+                0x00008020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00008020       0x54 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00008074       0x10 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00008084        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00008088        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0000808c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0000808c        0x8 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00008094        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00008098        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00008098        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00008098       0x54 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000080ec       0x64 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+                0x000080ec                alt_irq_handler
+                0x00008150                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00008020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00008150     0x1ab0
+                0x00008150                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00008150       0x4c ../scorereader_01_bsp/obj/HAL/src/crt0.o
+                0x00008150                _start
+ .text          0x0000819c       0x78 obj/default/input_manager.o
+                0x0000819c                input_get_active_key
+ .text          0x00008214      0x1f0 obj/default/ir_handler.o
+                0x00008214                handle_ir_input
+                0x00008344                update_display
+ .text          0x00008404       0x3c obj/default/main.o
+ .text.startup  0x00008440       0xfc obj/default/main.o
+                0x00008440                main
+ .text          0x0000853c      0x310 obj/default/player.o
+                0x0000853c                player_init
+                0x00008570                player_process
+                0x0000869c                player_apply_command
+ .text          0x0000884c       0x94 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                0x0000884c                _puts_r
+                0x000088cc                puts
+ .text          0x000088e0      0x184 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+                0x000088e0                srand
+                0x00008998                rand
+ .text          0x00008a64       0x28 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x00008a64                strlen
+ .text          0x00008a8c       0xe0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x00008a8c                __sfvwrite_small_dev
+ .text          0x00008b6c        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .text          0x00008b6c       0x28 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+                0x00008b6c                malloc
+                0x00008b80                free
+ .text          0x00008b94      0x784 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                0x00008b94                _malloc_r
+ .text          0x00009318       0x64 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+                0x00009318                _sbrk_r
+ .text          0x0000937c       0x6c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                0x0000937c                _write_r
+ .text          0x000093e8      0x40c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+                0x000093e8                _malloc_trim_r
+                0x00009524                _free_r
+ .text          0x000097f4        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .text          0x000097f4       0x60 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+                0x000097f4                __muldi3
+ .text          0x00009854       0x9c ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+                0x00009854                alt_ic_isr_register
+                0x00009858                alt_ic_irq_enable
+                0x00009898                alt_ic_irq_disable
+                0x000098d8                alt_ic_irq_enabled
+ .text          0x000098f0       0x68 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                0x000098f0                alt_iic_isr_register
+ .text          0x00009958        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x00009958        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x00009958        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x00009958      0x104 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+                0x00009958                alt_load
+ .text          0x00009a5c       0x2c ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+                0x00009a5c                alt_main
+ .text          0x00009a88        0x8 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+                0x00009a88                __malloc_lock
+                0x00009a8c                __malloc_unlock
+ .text          0x00009a90       0x4c ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+                0x00009a90                sbrk
+ .text          0x00009adc       0x68 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+                0x00009adc                write
+ .text          0x00009b44       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+                0x00009b44                alt_irq_init
+                0x00009b64                alt_sys_init
+ .text          0x00009b68       0x34 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00009b68                altera_avalon_jtag_uart_write
+ .text          0x00009b9c       0x18 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00009b9c                alt_dcache_flush_all
+ .text          0x00009bb4        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .text          0x00009bb4        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00009bb4        0xc ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00009bb4                alt_icache_flush_all
+ .text          0x00009bc0        0x8 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00009bc0                altera_nios2_qsys_irq_init
+ .text          0x00009bc8       0x38 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+                0x00009bc8                alt_icache_flush
+ *(.gnu.warning.*)
+ *(.fini)
+                0x00009c00                PROVIDE (__etext, ABSOLUTE (.))
+                0x00009c00                PROVIDE (_etext, ABSOLUTE (.))
+                0x00009c00                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00009c00                . = ALIGN (0x4)
+                0x00009c00                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x00009c00                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x00009c00                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x00009c00                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x00009c00                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x00009c00                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00009c00                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x00009c00                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00009c00                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00009c00                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00009c00                . = ALIGN (0x4)
+
+.rodata         0x00009c00       0xb8
+                0x00009c00                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00009c00                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00009c00       0x31 obj/default/main.o
+                                 0x34 (size before relaxing)
+ .rodata        0x00009c31       0x80 obj/default/main.o
+                0x00009c31                score_data
+ *fill*         0x00009cb1        0x3 
+ .rodata.str1.4
+                0x00009cb4        0x4 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ *(.rodata1)
+                0x00009cb8                . = ALIGN (0x4)
+                0x00009cb8                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00009c00                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00009cb8      0x50c load address 0x0000a1c4
+                0x00009cb8                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00009cb8                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00009cb8        0x0 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .data          0x00009cb8        0x0 obj/default/input_manager.o
+ .data          0x00009cb8        0x0 obj/default/ir_handler.o
+ .data          0x00009cb8        0x0 obj/default/main.o
+ .data          0x00009cb8        0x0 obj/default/player.o
+ .data          0x00009cb8        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .data          0x00009cb8        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .data          0x00009cb8        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .data          0x00009cb8        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x00009cb8       0xe0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .data          0x00009d98        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .data          0x00009d98      0x408 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                0x00009d98                __malloc_av_
+ .data          0x0000a1a0        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .data          0x0000a1a0        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .data          0x0000a1a0        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .data          0x0000a1a0        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000a1a0        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0000a1a0        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+                0x000121a0                _gp = ABSOLUTE ((. + 0x8000))
+                0x000121a0                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000a1a0        0x1 obj/default/ir_handler.o
+ *fill*         0x0000a1a1        0x3 
+ .sdata         0x0000a1a4        0x8 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                0x0000a1a4                _global_impure_ptr
+                0x0000a1a8                _impure_ptr
+ .sdata         0x0000a1ac        0x8 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                0x0000a1ac                __malloc_sbrk_base
+                0x0000a1b0                __malloc_trim_threshold
+ .sdata         0x0000a1b4        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+                0x0000a1b4                alt_priority_mask
+ .sdata         0x0000a1b8        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .sdata         0x0000a1bc        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+                0x0000a1bc                jtag_uart_0
+ .sdata         0x0000a1c0        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+                0x0000a1c0                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000a1c4                . = ALIGN (0x4)
+                0x0000a1c4                _edata = ABSOLUTE (.)
+                0x0000a1c4                PROVIDE (edata, ABSOLUTE (.))
+                0x0000a1c4                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000a1c4                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000a6d0      0x15c
+                0x0000a6d0                __bss_start = ABSOLUTE (.)
+                0x0000a6d0                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x0000a6d0                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000a6d0        0x1 obj/default/input_manager.o
+ *fill*         0x0000a6d1        0x3 
+ .sbss          0x0000a6d4        0xc obj/default/ir_handler.o
+ .sbss          0x0000a6e0        0x1 obj/default/main.o
+ *fill*         0x0000a6e1        0x3 
+ .sbss          0x0000a6e4        0xc e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                0x0000a6e4                __malloc_max_total_mem
+                0x0000a6e8                __malloc_max_sbrked_mem
+                0x0000a6ec                __malloc_top_pad
+ .sbss          0x0000a6f0        0x4 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                0x0000a6f0                errno
+ .sbss          0x0000a6f4        0x4 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+                0x0000a6f4                alt_irq_active
+ .sbss          0x0000a6f8        0xc ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+                0x0000a6f8                alt_envp
+                0x0000a6fc                alt_argv
+                0x0000a700                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x0000a704                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x0000a704                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000a704        0x0 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .bss           0x0000a704        0x0 obj/default/input_manager.o
+ .bss           0x0000a704        0x0 obj/default/ir_handler.o
+ .bss           0x0000a704        0x0 obj/default/main.o
+ .bss           0x0000a704        0x0 obj/default/player.o
+ .bss           0x0000a704        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .bss           0x0000a704        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .bss           0x0000a704        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000a704        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000a704        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000a704        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .bss           0x0000a704       0x28 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                0x0000a704                __malloc_current_mallinfo
+ .bss           0x0000a72c        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .bss           0x0000a72c        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .bss           0x0000a72c        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .bss           0x0000a72c        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000a72c        0x0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x0000a72c        0x0 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+ *(COMMON)
+ COMMON         0x0000a72c      0x100 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+                0x0000a72c                alt_irq
+                0x0000a82c                . = ALIGN (0x4)
+                0x0000a82c                __bss_end = ABSOLUTE (.)
+
+.rom            0x00000020        0x0 load address 0x0000a82c
+                0x00000020                PROVIDE (_alt_partition_rom_start, ABSOLUTE (.))
+ *(.rom .rom. rom.*)
+                0x00000020                . = ALIGN (0x4)
+                0x00000020                PROVIDE (_alt_partition_rom_end, ABSOLUTE (.))
+                0x0000a82c                PROVIDE (_alt_partition_rom_load_addr, LOADADDR (.rom))
+
+.ram            0x0000a82c        0x0
+                0x0000a82c                PROVIDE (_alt_partition_ram_start, ABSOLUTE (.))
+ *(.ram .ram. ram.*)
+                0x0000a82c                . = ALIGN (0x4)
+                0x0000a82c                PROVIDE (_alt_partition_ram_end, ABSOLUTE (.))
+                0x0000a82c                _end = ABSOLUTE (.)
+                0x0000a82c                end = ABSOLUTE (.)
+                0x0000a82c                __alt_stack_base = ABSOLUTE (.)
+                0x0000a82c                PROVIDE (_alt_partition_ram_load_addr, LOADADDR (.ram))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/input_manager.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 obj/default/ir_handler.o
+ .comment       0x00000000       0x24 obj/default/main.o
+ .comment       0x00000000       0x24 obj/default/player.o
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x478
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/input_manager.o
+ .debug_aranges
+                0x00000048       0x20 obj/default/ir_handler.o
+ .debug_aranges
+                0x00000068       0x28 obj/default/main.o
+ .debug_aranges
+                0x00000090       0x20 obj/default/player.o
+ .debug_aranges
+                0x000000b0       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x000000d0       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_aranges
+                0x000000f0       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000110       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x00000130       0x18 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000148       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .debug_aranges
+                0x00000168       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_aranges
+                0x00000188       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x000001a8       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x000001c8       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .debug_aranges
+                0x000001e8       0x18 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000200       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x00000220       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000240       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000260       0x30 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x00000290       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x000002b0       0x18 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x000002c8       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x000002e8       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000308       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_aranges
+                0x00000328       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_aranges
+                0x00000348       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x00000368       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000388       0x20 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x000003a8       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x000003c8       0x18 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x000003e0       0x38 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000418       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000438       0x20 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000458       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x714c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x76 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .debug_info    0x00000076      0x12c obj/default/input_manager.o
+ .debug_info    0x000001a2      0x1d6 obj/default/ir_handler.o
+ .debug_info    0x00000378      0x428 obj/default/main.o
+ .debug_info    0x000007a0      0x1f6 obj/default/player.o
+ .debug_info    0x00000996      0x6f4 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000108a      0x6e8 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_info    0x00001772       0xc6 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x00001838      0x6d9 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x00001f11      0x631 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x00002542      0x6c2 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .debug_info    0x00002c04      0xb3d e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_info    0x00003741      0x69c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .debug_info    0x00003ddd      0x6cb e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x000044a8      0x9f1 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .debug_info    0x00004e99       0x84 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x00004f1d      0x1ea e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_info    0x00005107      0x3c4 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x000054cb      0x25c ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x00005727       0x7f ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000057a6      0x195 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000593b       0x8a ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x000059c5      0x1b5 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00005b7a      0x194 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00005d0e      0x94c ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_info    0x0000665a      0x1af ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_info    0x00006809      0x1f2 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .debug_info    0x000069fb      0x1af ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00006baa      0x1a0 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00006d4a       0xa3 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00006ded       0xa3 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00006e90       0x85 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00006f15       0xcd ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00006fe2       0x8f ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00007071       0xdb ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_abbrev   0x00000000     0x249c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0xaf obj/default/input_manager.o
+ .debug_abbrev  0x000000c1       0xc1 obj/default/ir_handler.o
+ .debug_abbrev  0x00000182      0x1f1 obj/default/main.o
+ .debug_abbrev  0x00000373      0x107 obj/default/player.o
+ .debug_abbrev  0x0000047a      0x1d4 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x0000064e      0x1cd e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_abbrev  0x0000081b       0x7f e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000089a      0x1a8 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x00000a42      0x13b e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000b7d      0x1b5 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .debug_abbrev  0x00000d32      0x24e e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_abbrev  0x00000f80      0x1b8 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x00001138      0x199 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x000012d1      0x227 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .debug_abbrev  0x000014f8       0x37 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000152f       0xe0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_abbrev  0x0000160f      0x18c ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000179b      0x1b5 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00001950       0x12 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00001962      0x124 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00001a86       0x40 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00001ac6       0xd6 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00001b9c      0x120 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00001cbc      0x187 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_abbrev  0x00001e43      0x11b ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_abbrev  0x00001f5e      0x130 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000208e      0x10c ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000219a       0xd5 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000226f       0x5a ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x000022c9       0x5a ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00002323       0x12 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00002335       0x8a ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x000023bf       0x42 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00002401       0x9b ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_line     0x00000000     0x2912
+ *(.debug_line)
+ .debug_line    0x00000000       0x72 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .debug_line    0x00000072       0x8d obj/default/input_manager.o
+ .debug_line    0x000000ff       0xb5 obj/default/ir_handler.o
+ .debug_line    0x000001b4      0x118 obj/default/main.o
+ .debug_line    0x000002cc      0x188 obj/default/player.o
+ .debug_line    0x00000454      0x20f e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_line    0x00000663      0x21e e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_line    0x00000881      0x171 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x000009f2      0x222 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x00000c14      0x169 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x00000d7d      0x1fd e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .debug_line    0x00000f7a      0x417 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_line    0x00001391      0x208 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .debug_line    0x00001599      0x209 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x000017a2      0x307 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .debug_line    0x00001aa9       0x5d e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x00001b06       0x8b e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_line    0x00001b91       0xf1 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00001c82       0xd2 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00001d54       0x6b ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00001dbf       0xa7 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00001e66       0x50 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00001eb6       0xd6 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00001f8c       0xbd ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00002049      0x15b ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_line    0x000021a4      0x11d ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_line    0x000022c1      0x198 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .debug_line    0x00002459      0x11a ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00002573       0xf5 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00002668       0x5a ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x000026c2       0x51 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00002713       0xab ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x000027be       0x87 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00002845       0x50 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00002895       0x7d ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_frame    0x00000000      0x52c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c obj/default/input_manager.o
+ .debug_frame   0x0000002c       0x30 obj/default/ir_handler.o
+ .debug_frame   0x0000005c       0x3c obj/default/main.o
+ .debug_frame   0x00000098       0x4c obj/default/player.o
+ .debug_frame   0x000000e4       0x3c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x00000120       0x50 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_frame   0x00000170       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x00000190       0x30 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x000001c0       0x30 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .debug_frame   0x000001f0       0x38 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_frame   0x00000228       0x2c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000254       0x2c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x00000280       0x4c e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .debug_frame   0x000002cc       0x20 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_frame   0x000002ec       0x50 ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000033c       0x28 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000364       0x28 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000038c       0x28 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000003b4       0x28 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000003dc       0x30 ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+ .debug_frame   0x0000040c       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_frame   0x0000042c       0x28 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x00000454       0x38 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000048c       0x20 ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x000004ac       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000004cc       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000004ec       0x20 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x0000050c       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_str      0x00000000     0x14c1
+ *(.debug_str)
+ .debug_str     0x00000000      0x112 obj/default/input_manager.o
+                                0x144 (size before relaxing)
+ .debug_str     0x00000112       0xb3 obj/default/ir_handler.o
+                                0x1bc (size before relaxing)
+ .debug_str     0x000001c5       0xfe obj/default/main.o
+                                0x262 (size before relaxing)
+ .debug_str     0x000002c3        0xf obj/default/player.o
+                                0x1c2 (size before relaxing)
+ .debug_str     0x000002d2      0x385 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                                0x455 (size before relaxing)
+ .debug_str     0x00000657       0xd4 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+                                0x45a (size before relaxing)
+ .debug_str     0x0000072b       0xd0 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                                0x182 (size before relaxing)
+ .debug_str     0x000007fb       0x7f e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                0x481 (size before relaxing)
+ .debug_str     0x0000087a       0xed e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                                0x45b (size before relaxing)
+ .debug_str     0x00000967       0x5e e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+                                0x46f (size before relaxing)
+ .debug_str     0x000009c5      0x22e e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+                                0x66a (size before relaxing)
+ .debug_str     0x00000bf3       0x43 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+                                0x451 (size before relaxing)
+ .debug_str     0x00000c36       0x3a e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                                0x455 (size before relaxing)
+ .debug_str     0x00000c70       0x34 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+                                0x5b4 (size before relaxing)
+ .debug_str     0x00000ca4       0x3d e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x00000ce1      0x119 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+                                0x1a2 (size before relaxing)
+ .debug_str     0x00000dfa      0x12a ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+                                0x212 (size before relaxing)
+ .debug_str     0x00000f24       0x37 ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                                0x1cc (size before relaxing)
+ .debug_str     0x00000f5b       0x3a ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+                                0x156 (size before relaxing)
+ .debug_str     0x00000f95       0x17 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_vars.o)
+                                0x105 (size before relaxing)
+ .debug_str     0x00000fac      0x113 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+                                0x1fb (size before relaxing)
+ .debug_str     0x000010bf       0x8a ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+                                0x174 (size before relaxing)
+ .debug_str     0x00001149      0x11e ../scorereader_01_bsp\libhal_bsp.a(alt_malloc_lock.o)
+                                0x4ad (size before relaxing)
+ .debug_str     0x00001267       0x61 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+                                0x193 (size before relaxing)
+ .debug_str     0x000012c8       0x76 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+                                0x19f (size before relaxing)
+ .debug_str     0x0000133e       0xb9 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+                                0x21d (size before relaxing)
+ .debug_str     0x000013f7       0x2c ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x1d4 (size before relaxing)
+ .debug_str     0x00001423       0x1f ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                                0x114 (size before relaxing)
+ .debug_str     0x00001442       0x14 ../scorereader_01_bsp\libhal_bsp.a(alt_errno.o)
+                                0x104 (size before relaxing)
+ .debug_str     0x00001456       0x30 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                                0x12d (size before relaxing)
+ .debug_str     0x00001486       0x20 ../scorereader_01_bsp\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                0x11b (size before relaxing)
+ .debug_str     0x000014a6       0x1b ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+                                0x11a (size before relaxing)
+
+.debug_loc      0x00000000     0x2349
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xd9 obj/default/input_manager.o
+ .debug_loc     0x000000d9      0x29d obj/default/ir_handler.o
+ .debug_loc     0x00000376       0xaa obj/default/main.o
+ .debug_loc     0x00000420       0xa1 obj/default/player.o
+ .debug_loc     0x000004c1       0xb7 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x00000578       0xba e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_loc     0x00000632       0x29 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x0000065b      0x19e e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x000007f9       0x58 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-malloc.o)
+ .debug_loc     0x00000851      0xb4a e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_loc     0x0000139b       0x86 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-sbrkr.o)
+ .debug_loc     0x00001421       0xde e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x000014ff      0x667 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-freer.o)
+ .debug_loc     0x00001b66      0x15d e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_loc     0x00001cc3      0x13c ../scorereader_01_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x00001dff      0x1ca ../scorereader_01_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x00001fc9       0xc3 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000208c       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x000020ac       0x20 ../scorereader_01_bsp\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x000020cc       0x34 ../scorereader_01_bsp\libhal_bsp.a(alt_sbrk.o)
+ .debug_loc     0x00002100      0x119 ../scorereader_01_bsp\libhal_bsp.a(alt_write.o)
+ .debug_loc     0x00002219       0x41 ../scorereader_01_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000225a       0x7e ../scorereader_01_bsp\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000022d8       0x1f ../scorereader_01_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x000022f7       0x52 ../scorereader_01_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x30 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+                0x0000b2c8                __alt_data_end = 0xb2c8
+                0x0000b2c8                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x0000a82c                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x0000a82c                PROVIDE (__alt_heap_start, end)
+                0x0000b2c8                PROVIDE (__alt_heap_limit, 0xb2c8)
+OUTPUT(scorereader_01.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000      0x228
+ .debug_ranges  0x00000000       0x20 ../scorereader_01_bsp/obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x18 obj/default/main.o
+ .debug_ranges  0x00000038       0x88 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-rand.o)
+ .debug_ranges  0x000000c0       0x18 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x000000d8       0x70 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3/../../../../../H-i686-mingw32/nios2-elf/lib\libsmallc.a(lib_a-mallocr.o)
+ .debug_ranges  0x00000148       0x30 e:/programfiles/quartusii13.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.7.3\libgcc.a(_muldi3.o)
+ .debug_ranges  0x00000178       0x28 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x000001a0       0x10 ../scorereader_01_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x000001b0       0x48 ../scorereader_01_bsp\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x000001f8       0x30 ../scorereader_01_bsp\libhal_bsp.a(alt_exception_entry.o)

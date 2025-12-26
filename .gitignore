@@ -1,0 +1,32 @@
+# Quartus 临时文件
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+hc_output/
+*.bak
+*.orig
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.qws
+*.sld
+*.smsg
+*.qdf
+
+# Nios II 软件编译产物
+software/*/obj/
+software/*/*/obj/
+software/*/Makefile
+software/*/.gdbinit
+software/*/*.elf
+software/*/*.map
+software/*/*.objdump
+software/*/*.hex
+
+# 其它
+PLLJ_PLLSPE_INFO.txt
+timing/
+simulation/
