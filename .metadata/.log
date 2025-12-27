@@ -7126,3 +7126,25 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY com.altera.sbtgui.launch 1 0 2025-12-27 21:14:46.359
 !MESSAGE Executing: [D:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1918 --id=0x87654321 --timestamp=1766840984 /cygdrive/d/FPGA-project/FPGA_01/software/scorereader_01/scorereader_01.elf]
+!SESSION 2025-12-27 21:42:12.348 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-27 21:54:43.478
+!MESSAGE Executing: [D:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1858 --id=0x87654321]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-27 21:54:52.550
+!MESSAGE Executing: [D:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1858 --id=0x87654321 /cygdrive/d/FPGA-project/FPGA_01/software/scorereader_01/scorereader_01.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-27 21:58:04.949
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-27 21:58:07.867
+!MESSAGE Executing: [D:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1858 --id=0x87654321 --timestamp=1766843198]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-27 21:58:17.937
+!MESSAGE Executing: [D:/altera/13.0/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1858 --id=0x87654321 --timestamp=1766843198 /cygdrive/d/FPGA-project/FPGA_01/software/scorereader_01/scorereader_01.elf]

@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2' in SOPC Builder design 'mysystem'
  * SOPC Builder design path: D:/FPGA-project/FPGA_01/mysystem.sopcinfo
  *
- * Generated: Sat Dec 27 21:11:30 CST 2025
+ * Generated: Sat Dec 27 21:55:26 CST 2025
  */
 
 /*
@@ -145,7 +145,7 @@
  */
 
 #define ALT_MODULE_CLASS_FreqSynth_IP_0 FreqSynth_IP
-#define FREQSYNTH_IP_0_BASE 0x1920
+#define FREQSYNTH_IP_0_BASE 0x1860
 #define FREQSYNTH_IP_0_IRQ -1
 #define FREQSYNTH_IP_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define FREQSYNTH_IP_0_NAME "/dev/FreqSynth_IP_0"
@@ -159,7 +159,7 @@
  */
 
 #define ALT_MODULE_CLASS_Hex_Driver_IP_0 Hex_Driver_IP
-#define HEX_DRIVER_IP_0_BASE 0x1900
+#define HEX_DRIVER_IP_0_BASE 0x1840
 #define HEX_DRIVER_IP_0_IRQ -1
 #define HEX_DRIVER_IP_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define HEX_DRIVER_IP_0_NAME "/dev/Hex_Driver_IP_0"
@@ -173,7 +173,7 @@
  */
 
 #define ALT_MODULE_CLASS_Ir_Decode_IP_0 Ir_Decode_IP
-#define IR_DECODE_IP_0_BASE 0x1908
+#define IR_DECODE_IP_0_BASE 0x1848
 #define IR_DECODE_IP_0_IRQ -1
 #define IR_DECODE_IP_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define IR_DECODE_IP_0_NAME "/dev/Ir_Decode_IP_0"
@@ -187,7 +187,7 @@
  */
 
 #define ALT_MODULE_CLASS_KeyBoard_IP_0 KeyBoard_IP
-#define KEYBOARD_IP_0_BASE 0x1924
+#define KEYBOARD_IP_0_BASE 0x1864
 #define KEYBOARD_IP_0_IRQ -1
 #define KEYBOARD_IP_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define KEYBOARD_IP_0_NAME "/dev/KeyBoard_IP_0"
@@ -211,19 +211,19 @@
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/jtag_uart_0"
-#define ALT_STDERR_BASE 0x1910
+#define ALT_STDERR_BASE 0x1850
 #define ALT_STDERR_DEV jtag_uart_0
 #define ALT_STDERR_IS_JTAG_UART
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDIN "/dev/jtag_uart_0"
-#define ALT_STDIN_BASE 0x1910
+#define ALT_STDIN_BASE 0x1850
 #define ALT_STDIN_DEV jtag_uart_0
 #define ALT_STDIN_IS_JTAG_UART
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDOUT "/dev/jtag_uart_0"
-#define ALT_STDOUT_BASE 0x1910
+#define ALT_STDOUT_BASE 0x1850
 #define ALT_STDOUT_DEV jtag_uart_0
 #define ALT_STDOUT_IS_JTAG_UART
 #define ALT_STDOUT_PRESENT
@@ -247,7 +247,7 @@
  */
 
 #define ALT_MODULE_CLASS_jtag_uart_0 altera_avalon_jtag_uart
-#define JTAG_UART_0_BASE 0x1910
+#define JTAG_UART_0_BASE 0x1850
 #define JTAG_UART_0_IRQ 1
 #define JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define JTAG_UART_0_NAME "/dev/jtag_uart_0"
@@ -265,7 +265,7 @@
  */
 
 #define ALT_MODULE_CLASS_pio_led altera_avalon_pio
-#define PIO_LED_BASE 0x18c0
+#define PIO_LED_BASE 0x1820
 #define PIO_LED_BIT_CLEARING_EDGE_REGISTER 0
 #define PIO_LED_BIT_MODIFYING_OUTPUT_REGISTER 1
 #define PIO_LED_CAPTURE 0
@@ -350,13 +350,13 @@
  */
 
 #define ALT_MODULE_CLASS_sysid altera_avalon_sysid_qsys
-#define SYSID_BASE 0x1918
+#define SYSID_BASE 0x1858
 #define SYSID_ID -2023406815
 #define SYSID_IRQ -1
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1766840984
+#define SYSID_TIMESTAMP 1766843198
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 
@@ -367,7 +367,7 @@
 
 #define ALT_MODULE_CLASS_timer_0 altera_avalon_timer
 #define TIMER_0_ALWAYS_RUN 0
-#define TIMER_0_BASE 0x1840
+#define TIMER_0_BASE 0x1800
 #define TIMER_0_COUNTER_SIZE 32
 #define TIMER_0_FIXED_PERIOD 0
 #define TIMER_0_FREQ 50000000

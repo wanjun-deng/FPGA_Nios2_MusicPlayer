@@ -16,7 +16,7 @@
    {
       datum _sortIndex
       {
-         value = "15";
+         value = "8";
          type = "int";
       }
    }
@@ -24,7 +24,7 @@
    {
       datum _sortIndex
       {
-         value = "18";
+         value = "11";
          type = "int";
       }
    }
@@ -32,7 +32,7 @@
    {
       datum _sortIndex
       {
-         value = "17";
+         value = "10";
          type = "int";
       }
    }
@@ -40,7 +40,7 @@
    {
       datum _sortIndex
       {
-         value = "16";
+         value = "9";
          type = "int";
       }
    }
@@ -53,23 +53,7 @@
       }
       datum baseAddress
       {
-         value = "6416";
-         type = "String";
-      }
-   }
-   element FreqSynth_IP_0.avalon_slave_0
-   {
-      datum baseAddress
-      {
-         value = "6432";
-         type = "String";
-      }
-   }
-   element Hex_Driver_IP_0.avalon_slave_0
-   {
-      datum baseAddress
-      {
-         value = "6400";
+         value = "6224";
          type = "String";
       }
    }
@@ -77,7 +61,7 @@
    {
       datum baseAddress
       {
-         value = "6436";
+         value = "6244";
          type = "String";
       }
    }
@@ -85,7 +69,23 @@
    {
       datum baseAddress
       {
-         value = "6408";
+         value = "6216";
+         type = "String";
+      }
+   }
+   element Hex_Driver_IP_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "6208";
+         type = "String";
+      }
+   }
+   element FreqSynth_IP_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "6240";
          type = "String";
       }
    }
@@ -101,7 +101,7 @@
    {
       datum baseAddress
       {
-         value = "6424";
+         value = "6232";
          type = "String";
       }
    }
@@ -117,7 +117,7 @@
    {
       datum _sortIndex
       {
-         value = "10";
+         value = "7";
          type = "int";
       }
       datum sopceditor_expanded
@@ -134,102 +134,11 @@
          type = "int";
       }
    }
-   element pio_display
-   {
-      datum _sortIndex
-      {
-         value = "14";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pio_irdata
-   {
-      datum _sortIndex
-      {
-         value = "11";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pio_irflag
-   {
-      datum _sortIndex
-      {
-         value = "12";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pio_keyboard
-   {
-      datum _sortIndex
-      {
-         value = "6";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
    element pio_led
    {
       datum _sortIndex
       {
          value = "5";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pio_onote
-   {
-      datum _sortIndex
-      {
-         value = "7";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pio_playing
-   {
-      datum _sortIndex
-      {
-         value = "8";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pio_volumectrl
-   {
-      datum _sortIndex
-      {
-         value = "13";
          type = "int";
       }
       datum sopceditor_expanded
@@ -264,51 +173,11 @@
          type = "boolean";
       }
    }
-   element pio_led.s1
+   element ram.s1
    {
       datum baseAddress
       {
-         value = "6336";
-         type = "String";
-      }
-   }
-   element pio_playing.s1
-   {
-      datum baseAddress
-      {
-         value = "6240";
-         type = "String";
-      }
-   }
-   element pio_display.s1
-   {
-      datum baseAddress
-      {
-         value = "6144";
-         type = "String";
-      }
-   }
-   element pio_onote.s1
-   {
-      datum baseAddress
-      {
-         value = "6272";
-         type = "String";
-      }
-   }
-   element rom.s1
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-   }
-   element pio_keyboard.s1
-   {
-      datum baseAddress
-      {
-         value = "6304";
+         value = "32768";
          type = "String";
       }
    }
@@ -321,11 +190,11 @@
       }
       datum baseAddress
       {
-         value = "6208";
+         value = "6144";
          type = "String";
       }
    }
-   element pio_volumectrl.s1
+   element pio_led.s1
    {
       datum baseAddress
       {
@@ -333,28 +202,12 @@
          type = "String";
       }
    }
-   element ram.s1
+   element rom.s1
    {
-      datum baseAddress
+      datum _lockedAddress
       {
-         value = "32768";
-         type = "String";
-      }
-   }
-   element pio_irdata.s1
-   {
-      datum baseAddress
-      {
-         value = "6384";
-         type = "String";
-      }
-   }
-   element pio_irflag.s1
-   {
-      datum baseAddress
-      {
-         value = "6368";
-         type = "String";
+         value = "1";
+         type = "boolean";
       }
    }
    element sysid
@@ -374,7 +227,7 @@
    {
       datum _sortIndex
       {
-         value = "9";
+         value = "6";
          type = "int";
       }
       datum sopceditor_expanded
@@ -398,7 +251,7 @@
  <parameter name="projectName" value="MusicPlayer_01.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1766840121824" />
+ <parameter name="timeStamp" value="1766842730913" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
@@ -408,13 +261,6 @@
    internal="pio_led.external_connection"
    type="conduit"
    dir="end" />
- <interface name="keyboard" internal="pio_keyboard.external_connection" />
- <interface name="onote" internal="pio_onote.external_connection" />
- <interface name="playing" internal="pio_playing.external_connection" />
- <interface name="irdata" internal="pio_irdata.external_connection" />
- <interface name="irflag" internal="pio_irflag.external_connection" />
- <interface name="volumectrl" internal="pio_volumectrl.external_connection" />
- <interface name="display" internal="pio_display.external_connection" />
  <interface
    name="vib_export"
    internal="FreqSynth_IP_0.conduit_end"
@@ -543,7 +389,7 @@
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='rom.s1' start='0x0' end='0x800' /><slave name='nios2.jtag_debug_module' start='0x1000' end='0x1800' /><slave name='ram.s1' start='0x8000' end='0xB2C8' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='rom.s1' start='0x0' end='0x800' /><slave name='nios2.jtag_debug_module' start='0x1000' end='0x1800' /><slave name='timer_0.s1' start='0x1840' end='0x1860' /><slave name='pio_led.s1' start='0x18C0' end='0x18E0' /><slave name='Hex_Driver_IP_0.avalon_slave_0' start='0x1900' end='0x1908' /><slave name='Ir_Decode_IP_0.avalon_slave_0' start='0x1908' end='0x1910' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x1910' end='0x1918' /><slave name='sysid.control_slave' start='0x1918' end='0x1920' /><slave name='FreqSynth_IP_0.avalon_slave_0' start='0x1920' end='0x1924' /><slave name='KeyBoard_IP_0.avalon_slave_0' start='0x1924' end='0x1926' /><slave name='ram.s1' start='0x8000' end='0xB2C8' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='rom.s1' start='0x0' end='0x800' /><slave name='nios2.jtag_debug_module' start='0x1000' end='0x1800' /><slave name='timer_0.s1' start='0x1800' end='0x1820' /><slave name='pio_led.s1' start='0x1820' end='0x1840' /><slave name='Hex_Driver_IP_0.avalon_slave_0' start='0x1840' end='0x1848' /><slave name='Ir_Decode_IP_0.avalon_slave_0' start='0x1848' end='0x1850' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x1850' end='0x1858' /><slave name='sysid.control_slave' start='0x1858' end='0x1860' /><slave name='FreqSynth_IP_0.avalon_slave_0' start='0x1860' end='0x1864' /><slave name='KeyBoard_IP_0.avalon_slave_0' start='0x1864' end='0x1866' /><slave name='ram.s1' start='0x8000' end='0xB2C8' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone IV E" />
   <parameter name="internalIrqMaskSystemInfo" value="3" />
@@ -635,60 +481,6 @@
   <parameter name="clockRate" value="50000000" />
  </module>
  <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_keyboard">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="true" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
-  <parameter name="clockRate" value="50000000" />
- </module>
- <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_onote">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="true" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
-  <parameter name="clockRate" value="50000000" />
- </module>
- <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_playing">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="true" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
-  <parameter name="clockRate" value="50000000" />
- </module>
- <module
    kind="altera_avalon_timer"
    version="13.0.1"
    enabled="1"
@@ -720,78 +512,6 @@
   <parameter name="writeBufferDepth" value="64" />
   <parameter name="writeIRQThreshold" value="8" />
   <parameter name="avalonSpec" value="2.0" />
- </module>
- <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_irdata">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="16" />
-  <parameter name="clockRate" value="50000000" />
- </module>
- <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_irflag">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
-  <parameter name="clockRate" value="50000000" />
- </module>
- <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_volumectrl">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="true" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
-  <parameter name="clockRate" value="50000000" />
- </module>
- <module
-   kind="altera_avalon_pio"
-   version="13.0.1"
-   enabled="0"
-   name="pio_display">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="true" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
-  <parameter name="clockRate" value="50000000" />
  </module>
  <module kind="FreqSynth_IP" version="1.0" enabled="1" name="FreqSynth_IP_0">
   <parameter name="AUTO_CLOCK_CLOCK_RATE" value="50000000" />
@@ -827,9 +547,6 @@
  <connection kind="clock" version="13.0" start="clk_0.clk" end="ram.clk1" />
  <connection kind="clock" version="13.0" start="clk_0.clk" end="sysid.clk" />
  <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_led.clk" />
- <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_keyboard.clk" />
- <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_onote.clk" />
- <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_playing.clk" />
  <connection
    kind="reset"
    version="13.0"
@@ -843,21 +560,6 @@
    version="13.0"
    start="clk_0.clk_reset"
    end="pio_led.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_keyboard.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_onote.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_playing.reset" />
  <connection kind="avalon" version="13.0" start="nios2.data_master" end="rom.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0000" />
@@ -892,7 +594,7 @@
    start="nios2.data_master"
    end="sysid.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1918" />
+  <parameter name="baseAddress" value="0x1858" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -901,34 +603,7 @@
    start="nios2.data_master"
    end="pio_led.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x18c0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_keyboard.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x18a0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_onote.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1880" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_playing.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1860" />
+  <parameter name="baseAddress" value="0x1820" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -956,21 +631,6 @@
    version="13.0"
    start="nios2.jtag_debug_module_reset"
    end="pio_led.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_keyboard.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_onote.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_playing.reset" />
  <connection kind="clock" version="13.0" start="clk_0.clk" end="timer_0.clk" />
  <connection
    kind="reset"
@@ -983,7 +643,7 @@
    start="nios2.data_master"
    end="timer_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1840" />
+  <parameter name="baseAddress" value="0x1800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1018,94 +678,10 @@
    start="nios2.data_master"
    end="jtag_uart_0.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1910" />
+  <parameter name="baseAddress" value="0x1850" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="13.0" start="clk_0.clk" end="rom.clk1" />
- <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_irdata.clk" />
- <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_irflag.clk" />
- <connection
-   kind="clock"
-   version="13.0"
-   start="clk_0.clk"
-   end="pio_volumectrl.clk" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_irdata.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_irflag.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_volumectrl.reset" />
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_irdata.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x18f0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_irflag.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x18e0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_volumectrl.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1820" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_irdata.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_irflag.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_volumectrl.reset" />
- <connection kind="clock" version="13.0" start="clk_0.clk" end="pio_display.clk" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk_0.clk_reset"
-   end="pio_display.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2.jtag_debug_module_reset"
-   end="pio_display.reset" />
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2.data_master"
-   end="pio_display.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1800" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
  <connection
    kind="clock"
    version="13.0"
@@ -1127,7 +703,7 @@
    start="nios2.data_master"
    end="FreqSynth_IP_0.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1920" />
+  <parameter name="baseAddress" value="0x1860" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1151,7 +727,7 @@
    start="nios2.data_master"
    end="KeyBoard_IP_0.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1924" />
+  <parameter name="baseAddress" value="0x1864" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1175,7 +751,7 @@
    start="nios2.data_master"
    end="Ir_Decode_IP_0.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1908" />
+  <parameter name="baseAddress" value="0x1848" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1199,7 +775,7 @@
    start="nios2.data_master"
    end="Hex_Driver_IP_0.avalon_slave_0">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1900" />
+  <parameter name="baseAddress" value="0x1840" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />

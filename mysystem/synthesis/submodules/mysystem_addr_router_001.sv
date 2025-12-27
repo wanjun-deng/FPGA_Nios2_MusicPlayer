@@ -138,14 +138,14 @@ module mysystem_addr_router_001
     // -------------------------------------------------------
     localparam PAD0 = log2ceil(64'h800 - 64'h0); 
     localparam PAD1 = log2ceil(64'h1800 - 64'h1000); 
-    localparam PAD2 = log2ceil(64'h1860 - 64'h1840); 
-    localparam PAD3 = log2ceil(64'h18e0 - 64'h18c0); 
-    localparam PAD4 = log2ceil(64'h1908 - 64'h1900); 
-    localparam PAD5 = log2ceil(64'h1910 - 64'h1908); 
-    localparam PAD6 = log2ceil(64'h1918 - 64'h1910); 
-    localparam PAD7 = log2ceil(64'h1920 - 64'h1918); 
-    localparam PAD8 = log2ceil(64'h1924 - 64'h1920); 
-    localparam PAD9 = log2ceil(64'h1926 - 64'h1924); 
+    localparam PAD2 = log2ceil(64'h1820 - 64'h1800); 
+    localparam PAD3 = log2ceil(64'h1840 - 64'h1820); 
+    localparam PAD4 = log2ceil(64'h1848 - 64'h1840); 
+    localparam PAD5 = log2ceil(64'h1850 - 64'h1848); 
+    localparam PAD6 = log2ceil(64'h1858 - 64'h1850); 
+    localparam PAD7 = log2ceil(64'h1860 - 64'h1858); 
+    localparam PAD8 = log2ceil(64'h1864 - 64'h1860); 
+    localparam PAD9 = log2ceil(64'h1866 - 64'h1864); 
     localparam PAD10 = log2ceil(64'hc000 - 64'h8000); 
     // -------------------------------------------------------
     // Work out which address bits are significant based on the
@@ -207,50 +207,50 @@ module mysystem_addr_router_001
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 5;
     end
 
-    // ( 0x1840 .. 0x1860 )
-    if ( {address[RG:PAD2],{PAD2{1'b0}}} == 16'h1840   ) begin
+    // ( 0x1800 .. 0x1820 )
+    if ( {address[RG:PAD2],{PAD2{1'b0}}} == 16'h1800   ) begin
             src_channel = 11'b00000100000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 10;
     end
 
-    // ( 0x18c0 .. 0x18e0 )
-    if ( {address[RG:PAD3],{PAD3{1'b0}}} == 16'h18c0   ) begin
+    // ( 0x1820 .. 0x1840 )
+    if ( {address[RG:PAD3],{PAD3{1'b0}}} == 16'h1820   ) begin
             src_channel = 11'b00000010000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 6;
     end
 
-    // ( 0x1900 .. 0x1908 )
-    if ( {address[RG:PAD4],{PAD4{1'b0}}} == 16'h1900   ) begin
+    // ( 0x1840 .. 0x1848 )
+    if ( {address[RG:PAD4],{PAD4{1'b0}}} == 16'h1840   ) begin
             src_channel = 11'b10000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 1;
     end
 
-    // ( 0x1908 .. 0x1910 )
-    if ( {address[RG:PAD5],{PAD5{1'b0}}} == 16'h1908   ) begin
+    // ( 0x1848 .. 0x1850 )
+    if ( {address[RG:PAD5],{PAD5{1'b0}}} == 16'h1848   ) begin
             src_channel = 11'b01000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 2;
     end
 
-    // ( 0x1910 .. 0x1918 )
-    if ( {address[RG:PAD6],{PAD6{1'b0}}} == 16'h1910   ) begin
+    // ( 0x1850 .. 0x1858 )
+    if ( {address[RG:PAD6],{PAD6{1'b0}}} == 16'h1850   ) begin
             src_channel = 11'b00001000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 4;
     end
 
-    // ( 0x1918 .. 0x1920 )
-    if ( {address[RG:PAD7],{PAD7{1'b0}}} == 16'h1918   ) begin
+    // ( 0x1858 .. 0x1860 )
+    if ( {address[RG:PAD7],{PAD7{1'b0}}} == 16'h1858   ) begin
             src_channel = 11'b00000001000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 9;
     end
 
-    // ( 0x1920 .. 0x1924 )
-    if ( {address[RG:PAD8],{PAD8{1'b0}}} == 16'h1920   ) begin
+    // ( 0x1860 .. 0x1864 )
+    if ( {address[RG:PAD8],{PAD8{1'b0}}} == 16'h1860   ) begin
             src_channel = 11'b00010000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 0;
     end
 
-    // ( 0x1924 .. 0x1926 )
-    if ( {address[RG:PAD9],{PAD9{1'b0}}} == 16'h1924   ) begin
+    // ( 0x1864 .. 0x1866 )
+    if ( {address[RG:PAD9],{PAD9{1'b0}}} == 16'h1864   ) begin
             src_channel = 11'b00100000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 3;
     end

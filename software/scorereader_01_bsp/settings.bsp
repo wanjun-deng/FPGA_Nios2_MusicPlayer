@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>2025-12-27 21:11:29</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1766841089951</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>2025-12-27 21:55:25</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1766843725553</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\FPGA-project\FPGA_01\software\scorereader_01_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>D:\FPGA-project\FPGA_01\mysystem.sopcinfo</SopcDesignFile>
@@ -870,49 +870,49 @@
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>timer_0</slaveDescriptor>
-                <addressRange>0x00001840 - 0x0000185F</addressRange>
+                <addressRange>0x00001800 - 0x0000181F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>pio_led</slaveDescriptor>
-                <addressRange>0x000018C0 - 0x000018DF</addressRange>
+                <addressRange>0x00001820 - 0x0000183F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>Hex_Driver_IP_0</slaveDescriptor>
-                <addressRange>0x00001900 - 0x00001907</addressRange>
+                <addressRange>0x00001840 - 0x00001847</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>Ir_Decode_IP_0</slaveDescriptor>
-                <addressRange>0x00001908 - 0x0000190F</addressRange>
+                <addressRange>0x00001848 - 0x0000184F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>jtag_uart_0</slaveDescriptor>
-                <addressRange>0x00001910 - 0x00001917</addressRange>
+                <addressRange>0x00001850 - 0x00001857</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sysid</slaveDescriptor>
-                <addressRange>0x00001918 - 0x0000191F</addressRange>
+                <addressRange>0x00001858 - 0x0000185F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>FreqSynth_IP_0</slaveDescriptor>
-                <addressRange>0x00001920 - 0x00001923</addressRange>
+                <addressRange>0x00001860 - 0x00001863</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>KeyBoard_IP_0</slaveDescriptor>
-                <addressRange>0x00001924 - 0x00001925</addressRange>
+                <addressRange>0x00001864 - 0x00001865</addressRange>
                 <addressSpan>2</addressSpan>
                 <attributes/>
         </MemoryMap>
