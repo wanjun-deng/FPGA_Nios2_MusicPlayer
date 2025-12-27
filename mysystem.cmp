@@ -1,0 +1,16 @@
+	component mysystem is
+		port (
+			clk_clk                     : in  std_logic                    := 'X';             -- clk
+			reset_reset_n               : in  std_logic                    := 'X';             -- reset_n
+			led_export                  : out std_logic_vector(7 downto 0);                    -- export
+			vib_export_export           : out std_logic;                                       -- export
+			keyboard_export_Row_i       : in  std_logic_vector(3 downto 0) := (others => 'X'); -- Row_i
+			keyboard_export_Col_o       : out std_logic_vector(3 downto 0);                    -- Col_o
+			ir_decode_export_iIR        : in  std_logic                    := 'X';             -- iIR
+			ir_decode_export_Get_Flag_o : out std_logic;                                       -- Get_Flag_o
+			hex_driver_export_SH_CP     : out std_logic;                                       -- SH_CP
+			hex_driver_export_ST_CP     : out std_logic;                                       -- ST_CP
+			hex_driver_export_DS        : out std_logic                                        -- DS
+		);
+	end component mysystem;
+

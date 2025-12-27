@@ -22,7 +22,7 @@
 ###############################################################################
 
 
-# FPGA Xchange file generated using Quartus II Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# FPGA Xchange file generated using Quartus II Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 # DESIGN=MusicPlayer_01
 # REVISION=MusicPlayer
@@ -44,11 +44,11 @@ out,L16,output,3.3-V LVCMOS,2,Off,FAST,swap_0,--
 SH_CP,F6,output,3.3-V LVCMOS,2,Off,FAST,swap_0,--
 ST_CP,B4,output,3.3-V LVCMOS,2,Off,FAST,swap_0,--
 DS,E6,output,3.3-V LVCMOS,2,Off,FAST,swap_0,--
-reset_n,E16,input,3.3-V LVCMOS,,Off,--,swap_2,--
 row[0],D3,input,3.3-V LVCMOS,,Off,--,swap_2,--
 row[1],D1,input,3.3-V LVCMOS,,Off,--,swap_2,--
 row[2],F5,input,3.3-V LVCMOS,,Off,--,swap_2,--
 row[3],G2,input,3.3-V LVCMOS,,Off,--,swap_2,--
+reset_n,E16,input,3.3-V LVCMOS,,Off,--,swap_2,--
 clk_raw,E1,input,3.3-V LVCMOS,,Off,--,swap_2,--
 iIR,M1,input,3.3-V LVCMOS,,Off,--,swap_2,--
 altera_reserved_tms,J5,input,3.3-V LVTTL,,Off,--,NOSWAP,--

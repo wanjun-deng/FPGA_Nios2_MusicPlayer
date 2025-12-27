@@ -2,18 +2,18 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1687827735;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1687827735.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1777121474;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.936993729">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.118525923;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.118525923.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.808901803;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.2077296722">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="D:/Quartus_Project/keshe_07/keshe/RTL/software/scorereader_01_bsp/HAL/inc"/>
-<includePath path="D:/Quartus_Project/keshe_07/keshe/RTL/software/scorereader_01_bsp"/>
-<includePath path="D:/Quartus_Project/keshe_07/keshe/RTL/software/scorereader_01_bsp/drivers/inc"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\usr\include"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\usr\include\w32api"/>
+<includePath path="D:/FPGA-project/FPGA_01/software/scorereader_01_bsp/HAL/inc"/>
+<includePath path="D:/FPGA-project/FPGA_01/software/scorereader_01_bsp/"/>
+<includePath path="D:/FPGA-project/FPGA_01/software/scorereader_01_bsp/drivers/inc"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\usr\include"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
@@ -228,7 +228,6 @@
 <definedSymbol symbol="__hal__=1"/>
 <definedSymbol symbol="ALT_NO_C_PLUS_PLUS=1"/>
 <definedSymbol symbol="ALT_NO_CLEAN_EXIT=1"/>
-<definedSymbol symbol="exit(a)=_exit(a)"/>
 <definedSymbol symbol="ALT_NO_EXIT=1"/>
 <definedSymbol symbol="ALT_USE_DIRECT_DRIVERS=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
@@ -237,15 +236,15 @@
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1687827735;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1687827735.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1795522192;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.400377787">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.118525923;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.118525923.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1252797291;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1544234397">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="D:/Quartus_Project/keshe_07/keshe/RTL/software/scorereader_01_bsp/HAL/inc"/>
-<includePath path="D:/Quartus_Project/keshe_07/keshe/RTL/software/scorereader_01_bsp"/>
-<includePath path="D:/Quartus_Project/keshe_07/keshe/RTL/software/scorereader_01_bsp/drivers/inc"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\usr\include"/>
-<includePath path="E:\programfiles\quartusii13.1\quartus\bin\cygwin\usr\include\w32api"/>
+<includePath path="D:/FPGA-project/FPGA_01/software/scorereader_01_bsp/HAL/inc"/>
+<includePath path="D:/FPGA-project/FPGA_01/software/scorereader_01_bsp/"/>
+<includePath path="D:/FPGA-project/FPGA_01/software/scorereader_01_bsp/drivers/inc"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\usr\include"/>
+<includePath path="D:\altera\13.0\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -453,7 +452,6 @@
 <definedSymbol symbol="__hal__=1"/>
 <definedSymbol symbol="ALT_NO_C_PLUS_PLUS=1"/>
 <definedSymbol symbol="ALT_NO_CLEAN_EXIT=1"/>
-<definedSymbol symbol="exit(a)=_exit(a)"/>
 <definedSymbol symbol="ALT_NO_EXIT=1"/>
 <definedSymbol symbol="ALT_USE_DIRECT_DRIVERS=1"/>
 <definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>

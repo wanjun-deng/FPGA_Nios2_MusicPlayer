@@ -41,7 +41,7 @@ set_global_assignment -name DEVICE EP4CE6F17C8
 set_global_assignment -name TOP_LEVEL_ENTITY MusicPlayer
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:15:05  OCTOBER 02, 2025"
-set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name LAST_QUARTUS_VERSION 13.0
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -72,11 +72,11 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_global_assignment -name EDA_TEST_BENCH_FILE keshe/RTL/FSTB.v -section_id FSTB
+set_global_assignment -name EDA_TEST_BENCH_FILE ip/custom/FreqSynth_IP/sim/FSTB.v -section_id FSTB
 set_global_assignment -name EDA_TEST_BENCH_NAME MPTB -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id MPTB
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME MPTB -section_id MPTB
-set_global_assignment -name EDA_TEST_BENCH_FILE MPTB.v -section_id MPTB
+set_global_assignment -name EDA_TEST_BENCH_FILE sim/MPTB.v -section_id MPTB
 set_location_assignment PIN_D3 -to row[0]
 set_location_assignment PIN_D1 -to row[1]
 set_location_assignment PIN_F5 -to row[2]
@@ -111,22 +111,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to iIR
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to DS
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SH_CP
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to ST_CP
-set_global_assignment -name QSYS_FILE keshe/RTL/mysystem.qsys
-set_global_assignment -name VERILOG_FILE Key_Board.v
-set_global_assignment -name VERILOG_FILE scalediv.v
-set_global_assignment -name VERILOG_FILE preDiv.v
-set_global_assignment -name VERILOG_FILE octdiv.v
-set_global_assignment -name VERILOG_FILE cp.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/MusicPlayer.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/FreqSynth.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/FSTB.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/ir_decode.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/HEX_top.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/HEX8.v
-set_global_assignment -name VERILOG_FILE keshe/RTL/HC595_Driver.v
-set_global_assignment -name QIP_FILE cp.qip
-set_global_assignment -name QIP_FILE pll.qip
-set_global_assignment -name VERILOG_FILE MPTB.v
 set_location_assignment PIN_A2 -to led[3]
 set_location_assignment PIN_B3 -to led[2]
 set_location_assignment PIN_A4 -to led[1]
@@ -135,4 +119,21 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led[3]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led[2]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led[0]
+set_global_assignment -name VERILOG_FILE mysystem/synthesis/mysystem.v
+set_global_assignment -name QSYS_FILE mysystem.qsys
+set_global_assignment -name VERILOG_FILE ip/custom/KeyBoard_IP/Key_Board.v
+set_global_assignment -name VERILOG_FILE ip/vendor/scalediv/scalediv.v
+set_global_assignment -name VERILOG_FILE ip/vendor/preDiv/preDiv.v
+set_global_assignment -name VERILOG_FILE ip/vendor/octdiv/octdiv.v
+set_global_assignment -name VERILOG_FILE ip/vendor/cp/cp.v
+set_global_assignment -name VERILOG_FILE MusicPlayer.v
+set_global_assignment -name VERILOG_FILE ip/custom/FreqSynth_IP/FreqSynth.v
+set_global_assignment -name VERILOG_FILE ip/custom/FreqSynth_IP/sim/FSTB.v
+set_global_assignment -name VERILOG_FILE ip/custom/Ir_Decode_IP/ir_decode.v
+set_global_assignment -name VERILOG_FILE ip/custom/Hex_Driver_IP/HEX_top.v
+set_global_assignment -name VERILOG_FILE ip/custom/Hex_Driver_IP/HEX8.v
+set_global_assignment -name VERILOG_FILE ip/custom/Hex_Driver_IP/HC595_Driver.v
+set_global_assignment -name QIP_FILE ip/vendor/cp/cp.qip
+set_global_assignment -name QIP_FILE ip/vendor/pll/pll.qip
+set_global_assignment -name VERILOG_FILE MPTB.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
