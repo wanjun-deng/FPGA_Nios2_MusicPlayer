@@ -2,11 +2,11 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>2025-12-27 21:55:25</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1766843725553</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>D:\FPGA-project\FPGA_01\software\scorereader_01_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>2025-12-29 21:11:16</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1767013876568</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>D:\FPGA-project\FPGA_Nios2_MusicPlayer\software\scorereader_01_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
-        <SopcDesignFile>D:\FPGA-project\FPGA_01\mysystem.sopcinfo</SopcDesignFile>
+        <SopcDesignFile>D:\FPGA-project\FPGA_Nios2_MusicPlayer\mysystem.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2</Cpu>
         <SchemaVersion>1.9</SchemaVersion>

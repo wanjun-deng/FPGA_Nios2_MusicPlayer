@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'nios2' in SOPC Builder design 'mysystem'
- * SOPC Builder design path: D:/FPGA-project/FPGA_01/mysystem.sopcinfo
+ * SOPC Builder design path: D:/FPGA-project/FPGA_Nios2_MusicPlayer/mysystem.sopcinfo
  *
- * Generated: Sat Dec 27 21:55:26 CST 2025
+ * Generated: Mon Dec 29 21:04:49 CST 2025
  */
 
 /*
@@ -356,7 +356,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1766843198
+#define SYSID_TIMESTAMP 1767012829
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 

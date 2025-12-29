@@ -2,9 +2,9 @@
  * linker.x - Linker script
  *
  * Machine generated for CPU 'nios2' in SOPC Builder design 'mysystem'
- * SOPC Builder design path: D:/FPGA-project/FPGA_01/mysystem.sopcinfo
+ * SOPC Builder design path: D:/FPGA-project/FPGA_Nios2_MusicPlayer/mysystem.sopcinfo
  *
- * Generated: Sat Dec 27 15:29:50 CST 2025
+ * Generated: Mon Dec 29 21:04:49 CST 2025
  */
 
 /*

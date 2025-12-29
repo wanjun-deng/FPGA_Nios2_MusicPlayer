@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=D\:\\FPGA-project\\FPGA_01\\software\\scorereader_01
-newSoftwareExampleWizardPage.sopcinfoFile=D\:\\FPGA-project\\FPGA_01\\mysystem.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=D\:\\FPGA-project\\FPGA_01\\software\\scorereader_01_bsp
+newSoftwareExampleWizardPage.defaultLocation=D\:\\FPGA-project\\FPGA_Nios2_MusicPlayer\\software\\scorereader_01
+newSoftwareExampleWizardPage.sopcinfoFile=D\:\\FPGA-project\\FPGA_Nios2_MusicPlayer\\mysystem.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=D\:\\FPGA-project\\FPGA_Nios2_MusicPlayer\\software\\scorereader_01_bsp
