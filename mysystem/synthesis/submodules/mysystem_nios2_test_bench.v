@@ -29,7 +29,6 @@ module mysystem_nios2_test_bench (
                                     A_wr_data_unfiltered,
                                     A_wr_dst_reg,
                                     E_add_br_to_taken_history_unfiltered,
-                                    E_logic_result,
                                     E_valid,
                                     M_bht_ptr_unfiltered,
                                     M_bht_wr_data_unfiltered,
@@ -58,7 +57,6 @@ module mysystem_nios2_test_bench (
                                    // outputs:
                                     A_wr_data_filtered,
                                     E_add_br_to_taken_history_filtered,
-                                    E_src1_eq_src2,
                                     M_bht_ptr_filtered,
                                     M_bht_wr_data_filtered,
                                     M_bht_wr_en_filtered,
@@ -68,7 +66,6 @@ module mysystem_nios2_test_bench (
 
   output  [ 31: 0] A_wr_data_filtered;
   output           E_add_br_to_taken_history_filtered;
-  output           E_src1_eq_src2;
   output  [  7: 0] M_bht_ptr_filtered;
   output  [  1: 0] M_bht_wr_data_filtered;
   output           M_bht_wr_en_filtered;
@@ -82,7 +79,6 @@ module mysystem_nios2_test_bench (
   input   [ 31: 0] A_wr_data_unfiltered;
   input            A_wr_dst_reg;
   input            E_add_br_to_taken_history_unfiltered;
-  input   [ 31: 0] E_logic_result;
   input            E_valid;
   input   [  7: 0] M_bht_ptr_unfiltered;
   input   [  1: 0] M_bht_wr_data_unfiltered;
@@ -144,7 +140,6 @@ module mysystem_nios2_test_bench (
   wire             A_wr_data_unfiltered_8_is_x;
   wire             A_wr_data_unfiltered_9_is_x;
   wire             E_add_br_to_taken_history_filtered;
-  wire             E_src1_eq_src2;
   wire    [  7: 0] M_bht_ptr_filtered;
   wire    [  1: 0] M_bht_wr_data_filtered;
   wire             M_bht_wr_en_filtered;
@@ -423,7 +418,6 @@ module mysystem_nios2_test_bench (
     end
 
 
-  assign E_src1_eq_src2 = E_logic_result == 0;
   //Propagating 'X' data bits
   assign E_add_br_to_taken_history_filtered = E_add_br_to_taken_history_unfiltered;
 

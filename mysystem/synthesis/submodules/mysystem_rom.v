@@ -27,6 +27,7 @@ module mysystem_rom (
                        clken,
                        debugaccess,
                        reset,
+                       reset_req,
                        write,
                        writedata,
 
@@ -46,18 +47,21 @@ module mysystem_rom (
   input            clken;
   input            debugaccess;
   input            reset;
+  input            reset_req;
   input            write;
   input   [ 31: 0] writedata;
 
+  wire             clocken0;
   wire    [ 31: 0] readdata;
   wire             wren;
   assign wren = chipselect & write & debugaccess;
+  assign clocken0 = clken & ~reset_req;
   altsyncram the_altsyncram
     (
       .address_a (address),
       .byteena_a (byteenable),
       .clock0 (clk),
-      .clocken0 (clken),
+      .clocken0 (clocken0),
       .data_a (writedata),
       .q_a (readdata),
       .wren_a (wren)
