@@ -24,6 +24,8 @@ module avalon_ir_decode (
     // Edge detect and latches
     reg flag_d1;
     wire flag_posedge = Get_Flag && !flag_d1;
+    wire flag_negedge = !Get_Flag && flag_d1;
+    wire flag_edge = flag_posedge || flag_negedge;  // 双边沿检测
 
     reg        flag_latch;
     reg [15:0] data_latch;
@@ -41,8 +43,8 @@ module avalon_ir_decode (
             flag_latch <= 1'b0;
             data_latch <= 16'd0;
             addr_latch <= 16'd0;
-        end else if (flag_posedge) begin
-            // latch on complete frame
+        end else if (flag_edge) begin
+            // latch on complete frame (both edges)
             flag_latch <= 1'b1;
             data_latch <= irData;
             addr_latch <= irAddr;

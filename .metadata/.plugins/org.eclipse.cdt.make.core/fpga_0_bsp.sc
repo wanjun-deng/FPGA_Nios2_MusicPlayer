@@ -2,11 +2,11 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1986162857;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1986162857.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1166028682;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1940959880">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.601344799;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.601344799.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.658650183;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.2048269905">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="D:/Github_Repository/FPGA_01/software/fpga_01_bsp/HAL/inc"/>
-<includePath path="D:/Github_Repository/FPGA_01/software/fpga_01_bsp"/>
-<includePath path="D:/Github_Repository/FPGA_01/software/fpga_01_bsp/drivers/inc"/>
+<includePath path="D:/Github_Repository/FPGA_01/software/fpga_0_bsp/HAL/inc"/>
+<includePath path="D:/Github_Repository/FPGA_01/software/fpga_0_bsp"/>
+<includePath path="D:/Github_Repository/FPGA_01/software/fpga_0_bsp/drivers/inc"/>
 <includePath path="E:\programfiles\altera\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="E:\programfiles\altera\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="E:\programfiles\altera\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -237,11 +237,11 @@
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1986162857;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1986162857.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.762685124;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.457335803">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.601344799;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.601344799.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.219598948;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1263101765">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="D:/Github_Repository/FPGA_01/software/fpga_01_bsp/HAL/inc"/>
-<includePath path="D:/Github_Repository/FPGA_01/software/fpga_01_bsp"/>
-<includePath path="D:/Github_Repository/FPGA_01/software/fpga_01_bsp/drivers/inc"/>
+<includePath path="D:/Github_Repository/FPGA_01/software/fpga_0_bsp/HAL/inc"/>
+<includePath path="D:/Github_Repository/FPGA_01/software/fpga_0_bsp"/>
+<includePath path="D:/Github_Repository/FPGA_01/software/fpga_0_bsp/drivers/inc"/>
 <includePath path="E:\programfiles\altera\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="E:\programfiles\altera\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="E:\programfiles\altera\quartus\bin\cygwin\usr\include"/>

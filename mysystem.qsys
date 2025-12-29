@@ -73,19 +73,19 @@
          type = "String";
       }
    }
-   element Ir_Decode_IP_0.avalon_slave_0
-   {
-      datum baseAddress
-      {
-         value = "6216";
-         type = "String";
-      }
-   }
    element FreqSynth_IP_0.avalon_slave_0
    {
       datum baseAddress
       {
          value = "6240";
+         type = "String";
+      }
+   }
+   element Ir_Decode_IP_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "6216";
          type = "String";
       }
    }
@@ -173,14 +173,6 @@
          type = "boolean";
       }
    }
-   element pio_led.s1
-   {
-      datum baseAddress
-      {
-         value = "6176";
-         type = "String";
-      }
-   }
    element timer_0.s1
    {
       datum _tags
@@ -194,6 +186,14 @@
          type = "String";
       }
    }
+   element ram.s1
+   {
+      datum baseAddress
+      {
+         value = "32768";
+         type = "String";
+      }
+   }
    element rom.s1
    {
       datum _lockedAddress
@@ -202,11 +202,11 @@
          type = "boolean";
       }
    }
-   element ram.s1
+   element pio_led.s1
    {
       datum baseAddress
       {
-         value = "32768";
+         value = "6176";
          type = "String";
       }
    }

@@ -8623,3 +8623,22 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 
 !ENTRY com.altera.sbtgui.launch 1 0 2025-12-29 01:39:16.059
 !MESSAGE Executing: [E:/programfiles/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1858 --id=0x87654321 --timestamp=1766937614 /cygdrive/d/Github_Repository/FPGA_01/software/fpga_01/fpga_01.elf]
+!SESSION 2025-12-29 10:50:58.589 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 10:52:16.613
+!MESSAGE Indexed 'fpga_0_bsp' (82 sources, 60 headers) in 0.21 sec: 967 declarations; 2,389 references; 117 unresolved inclusions; 5 syntax errors; 200 unresolved names (5.62%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-29 10:52:18.064
+!MESSAGE Indexed 'fpga_0' (1 sources, 13 headers) in 0.01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-29 10:54:38.466
+!MESSAGE Executing: [E:/programfiles/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1858 --id=0x87654321 --timestamp=1766976606]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-12-29 10:54:40.839
+!MESSAGE Executing: [E:/programfiles/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1858 --id=0x87654321 --timestamp=1766976606 /cygdrive/d/Github_Repository/FPGA_01/software/fpga_0/fpga_0.elf]

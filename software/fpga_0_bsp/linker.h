@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2' in SOPC Builder design 'mysystem'
  * SOPC Builder design path: D:/Github_Repository/FPGA_01/mysystem.sopcinfo
  *
- * Generated: Mon Dec 29 00:02:14 CST 2025
+ * Generated: Mon Dec 29 10:52:15 CST 2025
  */
 
 /*
