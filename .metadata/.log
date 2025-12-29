@@ -8642,3 +8642,19 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY com.altera.sbtgui.launch 1 0 2025-12-29 10:54:40.839
 !MESSAGE Executing: [E:/programfiles/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1858 --id=0x87654321 --timestamp=1766976606 /cygdrive/d/Github_Repository/FPGA_01/software/fpga_0/fpga_0.elf]
+
+!ENTRY org.eclipse.core.resources 4 568 2025-12-29 21:21:03.422
+!MESSAGE Could not write metadata for '/scorereader_01'.
+!STACK 0
+java.io.FileNotFoundException: D:\FPGA-project\FPGA_Nios2_MusicPlayer\.metadata\.plugins\org.eclipse.core.resources\.projects\scorereader_01\.markers.snap (系统找不到指定的路径。)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1685)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
